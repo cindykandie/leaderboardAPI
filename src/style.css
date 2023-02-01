@@ -1,0 +1,64 @@
+:root {
+  --whiteShade: rgb(252, 252, 252);
+  --darkShade: rgb(15, 1, 54);
+  --pinkShade: bisque;
+  --greyShade: #c2c2c2;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--darkShade);
+}
+h1{
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+}
+.board-display{
+  display: flex;
+  justify-content: space-evenly;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+button{
+  background-color: var(--whiteShade);
+  box-shadow: 1px 1px 2px var(--darkShade);
+  max-width: 100px;
+  align-self: center;
+  padding: 5px;
+  transition: all 0.8s ease-in;
+}
+
+button:hover{
+  box-shadow: none;
+  background-color: var(--pinkShade);
+
+}
+ul{
+  border: 2px solid var(--darkShade);
+  padding: 0;
+
+
+}
+li{
+  list-style-type: none;
+  padding: 10px;
+}
+li:nth-child(even){
+  background: var(--pinkShade);
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  border: 2px solid var(--darkShade);
+  padding: 10px;
+  margin: 20px;
+}
+
+::placeholder{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
