@@ -5,24 +5,28 @@
   --greyShade: #c2c2c2;
 }
 
-body{
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--darkShade);
 }
-h1{
+
+h1 {
   font-size: 3rem;
   padding: 10px;
   text-align: center;
 }
-.board-display{
+
+.board-display {
   display: flex;
   justify-content: space-evenly;
 }
-main{
+
+main {
   display: flex;
   flex-direction: column;
 }
-button{
+
+button {
   background-color: var(--whiteShade);
   box-shadow: 1px 1px 2px var(--darkShade);
   max-width: 100px;
@@ -31,34 +35,36 @@ button{
   transition: all 0.8s ease-in;
 }
 
-button:hover{
+button:hover {
   box-shadow: none;
   background-color: var(--pinkShade);
-
 }
-ul{
+
+ul {
   border: 2px solid var(--darkShade);
   padding: 0;
-
-
 }
-li{
+
+li {
   list-style-type: none;
   padding: 10px;
 }
-li:nth-child(even){
+
+li:nth-child(even) {
   background: var(--pinkShade);
 }
-form{
+
+form {
   display: flex;
   flex-direction: column;
 }
-input{
+
+input {
   border: 2px solid var(--darkShade);
   padding: 10px;
   margin: 20px;
 }
 
-::placeholder{
+::placeholder {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
