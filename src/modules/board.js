@@ -6,8 +6,7 @@ const renderScores = async () => {
   const score = await getScores();
   listContainer.innerHTML = '';
   score.forEach((item) => {
-    const leaderBoard = 
-          `<li>
+    const leaderBoard = `<li>
                ${item.user}: ${item.score}
            </li>`;
     listContainer.insertAdjacentHTML('beforeend', leaderBoard);

@@ -31,7 +31,7 @@
 
 # 📖 [LeaderBoard Project] <a name="about-project"></a>
 
-> - In this project, We will built a basic website that allows users to add/remove books from a list.
+> - In this project, I built a leaderboard game that consumes a leaderboard api.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,11 +40,13 @@
 - Javascript
 - ES6
 - Webpack
+- APIs and JSON
 
 ### Key Features <a name="key-features"></a>
 
 - **Display the scores**
-- **Can add and delete scores]**
+- **Add scores to the API**
+- **Update score from the API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -52,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cindykandie.github.io/leaderboardApi/dist/)
+- [Live Demo Link](https://cindykandie.github.io/leaderboardAPI/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +101,9 @@ Install this project with:
 - to install locally run git clone https://github.com/cindykandie/leaderboardAPI/.git
 - open the cloned directory with VSCode
 - Install npm and webserver
-- Right click on the index.html and select open with live servers
+- Run npm install
+- Run npm run build
+- Run npm start to view on your browser
 
 ### Usage
 
@@ -123,8 +127,7 @@ Install this project with:
 <!-- FUTURE FEATURES -->
 
 ## 🤝 Future Features <a name="future-features"></a>
-- Activate the refresh button
-- Allow updation of the board
+- Allow multiple endpoints for users and admins
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

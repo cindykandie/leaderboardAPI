@@ -8,21 +8,19 @@ const scoreInput = document.querySelector('#score');
 const submitBtn = document.querySelector('#submit-btn');
 const refreshButton = document.querySelector('.refresh-btn');
 
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  submitScores();
+  nameInput.value = '';
+  scoreInput.value = '';
+});
 
-  submitBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    submitScores();
-    nameInput.value = '';
-    scoreInput.value = '';
-  });
-  
-  refreshButton.addEventListener('click', (e) => {
-    e.preventDefault();
-    getScores();
-    renderScores();
-  });
+refreshButton.addEventListener('click', (e) => {
+  e.preventDefault();
+  getScores();
+  renderScores();
+});
 
-  
 window.addEventListener('load', () => {
   renderScores();
 });
