@@ -4,28 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>LeaderBoard API!</title>
+    <title>Streak Game Leaderboard</title>
 </head>
 <body>
-    <h1>Leaderboard</h1>
-    <div class="board-display">
-        <main>
-        <h2>Recent Scores
+    <h1>Streak Game Leaderboard</h1>
+        <main class="board-display">
+            <section>
+        <div class="board-title">
+            <h2>Recent Scores </h2>
             <button class="refresh-btn">Refresh</button>
-        </h2>
+        </div>
         <ul class="scores-list">
             
         </ul>
-    </main>
+    </section>
     <section>
         <h2>Add your Score</h2>
-        <form action="">
+        <form>
             <input type="text" placeholder="Your name" id="name">
             <input type="text" placeholder="Your score" id="score">
             <button type="submit" id="submit-btn">Submit</button>
         </form>
     </section>
-    <script src="index.js"></script>
-</div>
+</main>
+
+<script src="index.js"></script>
 </body>
 </html>
