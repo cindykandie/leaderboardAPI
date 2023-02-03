@@ -3,52 +3,31 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/be8db3d534.js"
-      crossorigin="anonymous"
-    >
-</script>
-    <title>LeaderBoard API!</title>
-<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+    
+    <title>Streak Game Leaderboard</title>
+<script defer src="./runtime.bundle.js"></script><script defer src="./main.bundle.js"></script></head>
 <body>
-    <h1>Leaderboard</h1>
-    <div class="board-display">
-        <main>
-        <h2>Recent Scores
-            <button>Refresh</button>
-        </h2>
-        <ul>
-            <li>
-                Name: 100
-            </li> 
-            <li>
-                Name: 20
-            </li> 
-            <li>
-                Name: 50
-            </li> 
-            <li>
-                Name: 78
-            </li> 
-            <li>
-                Name: 125
-            </li> 
-            <li>
-                Name: 77
-            </li> 
-            <li>
-                Name: 42
-            </li>
+    <h1>Streak Game Leaderboard</h1>
+        <main class="board-display">
+            <section>
+        <div class="board-title">
+            <h2>Recent Scores </h2>
+            <button class="refresh-btn">Refresh</button>
+        </div>
+        <ul class="scores-list">
+            
         </ul>
-    </main>
+    </section>
     <section>
         <h2>Add your Score</h2>
-        <form action="">
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Your score">
-            <button type="submit">Submit</button>
+        <form>
+            <input type="text" placeholder="Your name" id="name">
+            <input type="text" placeholder="Your score" id="score">
+            <button type="submit" id="submit-btn">Submit</button>
         </form>
     </section>
-</div>
+</main>
+
+<script src="index.js"></script>
 </body>
 </html>
