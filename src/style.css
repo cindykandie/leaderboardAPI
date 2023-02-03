@@ -79,10 +79,14 @@ input {
   margin: 20px;
   border-radius: 5px;
 }
+input:focus{
+  background-color: var(--pinkShade);
+}
 
 ::placeholder {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 @media screen and  (min-width: 678px){
   main {
     display: flex;
